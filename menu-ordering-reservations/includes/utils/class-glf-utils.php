@@ -624,7 +624,7 @@ if ( ! class_exists( 'Glf_Utils' ) ) {
         public static function glf_capabilities_check_failed( $response ) {
             $response[ 'status' ] = 'error';
             $response[ 'msg' ] = 'Access restricted, security check failed!';
-            echo json_encode( $response );
+            echo esc_attr(json_encode( $response ));
             exit();
         }
 

@@ -5,8 +5,8 @@ License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl.html
 Tags: food menu, restaurant menu, food ordering, food order, restaurant reservation, food delivery, takeaway, restaurant online ordering, online food ordering, restaurant booking system, restaurant reservation
 Requires at least: 5.0
-Tested up to: 6.4
-Stable tag: 2.4.2
+Tested up to: 6.6.2
+Stable tag: 2.4.3
 Requires PHP: 5.5.0
 
 Create a restaurant menu and start taking food orders online, with no commissions or costs. Table reservations are also available for free.
@@ -317,4 +317,8 @@ The colors and fonts in the ordering widget cannot be changed, as we are trying 
 * Bug fixes and security improvements
 
 = 2.4.2 =
+* Security improvements
+
+= 2.4.3 =
+* Tested up to: 6.6.2
 * Security improvements
