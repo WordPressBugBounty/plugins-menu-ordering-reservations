@@ -4,7 +4,7 @@
   Plugin URI: https://www.gloriafood.com/wordpress-restaurant-plugin
   Description: This plugin is all you need to turn your restaurant website into an online business. Using a simple and friendly interface you get a restaurant menu, online food ordering and restaurant booking system. All free, no fees, no hidden costs, no commissions - for unlimited food orders and restaurant reservations.
 
-  Version: 2.4.3
+  Version: 2.4.4
   Author: GloriaFood
   Author URI: https://www.gloriafood.com/
   License: GPLv2+
@@ -46,7 +46,7 @@ if ( ! defined( 'GLF_STAGING_API_URL' ) ) {
 }
 
 class GLF_Restaurant_System {
-	var $version = '2.4.3',
+	var $version = '2.4.4',
 		$api_token = null,
 		$custom_css = null,
 		$auth_domain = null,

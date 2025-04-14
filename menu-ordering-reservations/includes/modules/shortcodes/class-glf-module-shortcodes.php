@@ -243,9 +243,9 @@ if ( ! class_exists( 'Glf_Module_Shortcodes' ) ) {
 
             if ( is_array( $opening_hours_array ) && !empty( $opening_hours_array ) ) {
                 $opening_hours_array = Glf_Utils::group_same_schedule_type( $opening_hours_array );
-
+                $woodImage = GLF_PLUGIN_URL . "assets/images/wood2.png";
                 $html .= '<div class="glf-widget-opening-hours">
-                            <div class="wood-background" lazy-style="background-image: url(\'https://d2skenm2jauoc1.cloudfront.net/websites/img/wood2.png\')" style="background-image: url(\'https://d2skenm2jauoc1.cloudfront.net/websites/img/wood2.png\')"></div> 
+                            <div class="wood-background" lazy-style="background-image: url(' . $woodImage . ')" style="background-image: url(' . $woodImage . ')"></div> 
                             <div class="wood-border-1"></div> 
                             <div class="wood-border-2"></div>
                             <div id="glf-opening-data" style="display: none;">' .
